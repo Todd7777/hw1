@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+.env
+venv/
+.idea/
+.vscode/
+
+# Sensitive files
+service-account.json
+.key
+encrypted_credentials.json
+setup_credentials.py
+setup_google_cloud.py
