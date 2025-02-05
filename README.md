@@ -1,4 +1,4 @@
-# Advanced Chess Game
+### The Advanced Chess Game
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -6,11 +6,11 @@
 
 ## Introduction
 
-It has always been my dream to build my own chess game, similar to the ones I play on platforms like CoolmathGames. To challenge myself and refine my programming skills, I decided to develop this project entirely by hand, which took approximately 40 hours to complete. I handled every aspect of the project, from designing the UI and implementing game logic to integrating Stockfish for an AI opponent, and embedding a legal move validator algorithm.
+It has always been my dream to build my own chess game, similar to the ones I play on platforms like CoolmathGames. To challenge myself and fine tune my programming skills, I decided to develop this project entirely by hand, which took approximately 40 hours to complete. I handled every aspect of the project, from designing the UI and implementing game logic to integrating Stockfish for an AI opponent, and embedding a legal move validator algorithm.
 
 One of the most challenging parts was ensuring the smooth execution of the chess engine's API calls and animating piece movements to provide a professional feel. Implementing legal move validation, especially for checkmate detection, required significant effort. Handling edge cases, such as stalemates, insufficient material draws, and en passant captures, further complicated the logic.
 
-To ensure robust game state management, I introduced precise tracking for computer move scheduling. Specifically, I implemented self.computer_move_scheduled to indicate when the engine is processing a move and self.computer_thinking_start to timestamp when the AI begins its calculation. This avoids unnecessary redundant calls and ensures moves are executed efficiently.
+To ensure robust game state management, I introduced precise tracking for computer move scheduling. Specifically, I implemented `self.computer_move_scheduled` to indicate when the engine is processing a move and `self.computer_thinking_start` to timestamp when the AI begins its calculation. This avoids unnecessary redundant calls and ensures moves are executed efficiently.
 
 Another significant improvement was optimizing computer move execution by:
 - Ensuring no animations are in progress before scheduling a move.
@@ -24,7 +24,7 @@ By refining move validation, AI scheduling, and game state management, I created
 
 ## The Game
 
-A sophisticated chess implementation featuring both player-vs-player and player-vs-computer gameplay modes. Built with Python and Pygame, this application combines classical chess rules with modern UI design and professional-grade AI integration through the Stockfish chess engine.
+A sophisticated chess implementation featuring both player-vs-player and player-vs-computer gameplay modes. Built with Python and Pygame, this application combines classical chess rules with modern UI design and AI integration through the Stockfish chess engine.
 
 ## 🎮 Features
 
