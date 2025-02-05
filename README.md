@@ -33,7 +33,7 @@ A sophisticated chess implementation featuring both player-vs-player and player-
   - Play with a friend locally
   - Real-time move validation
 
-- **Professional UI/UX**
+- **Improved UI/UX**
   - Smooth piece animations
   - Intuitive drag-and-drop interface
   - Legal move highlighting
@@ -46,11 +46,6 @@ A sophisticated chess implementation featuring both player-vs-player and player-
   - Move validation and check detection
   - Stalemate and checkmate detection
   - Game state persistence
-
-- **Audio Feedback**
-  - Move sound effects
-  - Capture notifications
-  - Check/checkmate alerts
 
 ## 🚀 Getting Started
 
